@@ -20,4 +20,7 @@ export class UserComponent implements OnInit {
   onNavigate(){
     this.route.navigate(['/']);
   }
+  onNavigatetoUser(){
+    this.route.navigate(["/users"])
+  }
 }
