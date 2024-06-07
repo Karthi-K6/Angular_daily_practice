@@ -19,3 +19,10 @@
 <button
   class="btn btn-primary"
   (click)="onUpdateServer()">Update Server</button>
+
+<button
+  class="btn btn-primary"
+  (click)="OnqueryExample()"
+  [routerLink]="['/servers',4,'edit']"
+  [queryParams]="{edit:'1'}"
+>Update Server</button>
